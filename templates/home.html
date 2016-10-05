@@ -1,0 +1,15 @@
+<!-- templates/home.html -->
+
+<md-content>
+
+  <h1>Bine ai venit!</h1>
+  
+	<md-button 
+	  class="md-raised md-primary"
+	  aria-label="Login"
+	  ng-if="!toolbar.auth.isAuthenticated"
+	  ng-click="toolbar.login()">
+	  Login
+	</md-button>
+
+</md-content>
